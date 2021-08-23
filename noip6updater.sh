@@ -9,7 +9,7 @@
 USER='joe.average@gmail.com'
 PASSWORD='yourpass'
 INTERFACE='eth0'
-HOSTNAMES=('your.domain.io')
+HOSTNAMES=('your.domain.io' 'other.domain')
 LOGFILE='/var/log/noip6updater.log'
 
 ### No changes below this line ###
