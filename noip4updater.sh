@@ -6,7 +6,10 @@
 
 ### Script configuration ###
 
-
+USER='joe.average@gmail.com'
+PASSWORD='yourpass'
+HOSTNAMES=('your.domain.io' 'other.domain')
+LOGFILE='/var/log/noip6updater.log'
 
 ### No changes below this line ###
 
