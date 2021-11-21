@@ -23,5 +23,4 @@ do
     result=$(curl -s -u "$USER:$PASSWORD" "https://dynupdate.no-ip.com/nic/update?hostname=$hostname&myip=$ip")
     # Log results: nochg = Provided IP was already set; good = IP was updated, both are a success.
     echo $(date -u) ": API call respone: $result" >> $LOGFILE
-    echo run
 done
